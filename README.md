@@ -24,9 +24,9 @@ note with references justifying your analysis in a markdown cell.
 ## Task Three
 ### Description
 The standard deviation of an array of numbers x is
-calculated using numpy as: 
+calculated using numpy as:
 
-$$ np.sqrt(np.sum((x - np.mean(x))\**2)/len(x)) $$
+>np.sqrt(np.sum((x - np.mean(x))\**2)/len(x))
 
 However, Microsoft Excel has two different versions of the standard deviation calculation,
 STDDEV.P and STDDEV.S . The STDDEV.P function performs the above
